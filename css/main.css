@@ -209,8 +209,15 @@ header .social li:first-child{
 	position: relative;
 	width: 100%;
 	height: 560px;
-	background: url('../img/hero.jpg') no-repeat fixed center center;	
+	background: url('../img/hero.jpg') no-repeat fixed center center;
 	background-size: cover;
+}
+
+@media (max-width : 1000px) {
+	.hero {
+		background: url('../img/hero2.jpg') no-repeat fixed center center;
+		background-size: cover;
+	}
 }
 
 .hero .caption{
@@ -225,19 +232,21 @@ header .social li:first-child{
 }
 
 .hero .caption h1{
-	color: #525252;
+	color: #cdcdcd;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
-	font-weight: bold;
+	font-weight:| bold;
 	word-break: break-word;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .hero .caption p{
-	color: #6d6c6c;
+	color: #cdcdcd;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 30px;
 	margin: 15px 0 35px 0;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #slider .caption p{
@@ -248,15 +257,16 @@ a.app_store_btn{
 	display: inline-block;
 	text-decoration: none;
 	padding: 15px 40px;
-	border: 2px solid #525252;
+	border: 2px solid #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	margin: 20px 20px 10px 0;
 
-	color: #525252;
+	color: #ffffff;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 25px;
 }
 
 .play_icon,
@@ -285,8 +295,8 @@ a.app_store_btn{
 
 a.app_store_btn:hover,
 a.app_store_btn:focus{
-	border-color: #41c27d;
-	color: #41c27d!important;
+	border-color: #fffa00;
+	color: #fffa00 !important;
 }
 
 a.app_store_btn:hover .play_icon{
@@ -538,6 +548,25 @@ a.app_link{
 
 
 /*		Testimonials section 		*/
+#testimonials {
+	background-color: #310700;
+	color: #fffbf7;
+}
+
+#testimonials h4 {
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+#testimonials h6 {
+	font-style: italic;
+	margin-top: 4px;
+}
+
+.developer {
+	margin-bottom: 20px;
+
+}
 
 .testimonials{
 	padding: 100px 0;
