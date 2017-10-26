@@ -190,7 +190,8 @@ header .social li:first-child{
 	.hero {
 		background: url('../img/hero2.jpg') no-repeat fixed center center;
 		background-size: cover;
-		width: 2000px;
+		height: 800px;
+
 	}
 	.container{
 		max-width: 2000px;
@@ -218,7 +219,7 @@ header .social li:first-child{
 
 .hero .caption{
 	position: absolute;
-	max-width: 650px;
+	max-width: 550px;
 	margin-left: 80px;
 	top: 50%;
 	transform:translate(0,-50%);
