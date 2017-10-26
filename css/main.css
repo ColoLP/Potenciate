@@ -24,11 +24,6 @@
 */
 
 
-
-
-
-
-
 /*		Fonts		*/
 @font-face {
     font-family: 'open_regular';
@@ -69,13 +64,6 @@
 }
 
 
-
-
-
-
-
-
-
 /*		General CSS		*/
 body{
 	background: #faf9f9;
@@ -91,13 +79,6 @@ a:focus{
 .container{
 	max-width: 1130px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -194,14 +175,6 @@ header .social li:first-child{
 }
 
 
-
-
-
-
-
-
-
-
 /*		Hero section 		*/
 
 .hero{
@@ -217,7 +190,30 @@ header .social li:first-child{
 	.hero {
 		background: url('../img/hero2.jpg') no-repeat fixed center center;
 		background-size: cover;
+		width: 2000px;
 	}
+	.container{
+		max-width: 2000px;
+		width: 2000px;
+		}
+	}
+}
+
+@media (min-width: 992px){
+	.container {
+	    width: 100%;
+		}
+}
+
+
+
+@media (max-width: 1400px){
+
+.container
+{
+	max-width: 100%;
+	width: 100%;
+}
 }
 
 .hero .caption{
@@ -365,16 +361,6 @@ a.app_link{
     z-index: 9999;
 }
 
-
-
-
-
-
-
-
-
-
-
 /*		Featured on section 		*/
 
 .featured_on{
@@ -395,15 +381,6 @@ a.app_link{
 .featured_on li:first-child{
 	margin-left: 0;
 }
-
-
-
-
-
-
-
-
-
 
 /*		About section 		*/
 
@@ -539,19 +516,17 @@ a.app_link{
 }
 
 
-
-
-
-
-
-
-
-
 /*		Testimonials section 		*/
 #testimonials {
 	background-color: #310700;
 	color: #fffbf7;
 }
+
+.quotes {
+    padding-left: 2em;
+    padding-right: 5em;
+}
+
 
 #testimonials h4 {
 	font-weight: 700;
@@ -564,16 +539,18 @@ a.app_link{
 }
 
 .developer {
-	margin-bottom: 20px;
-
+	margin-bottom: 40px;
+    padding-left: 8em;
+    padding-right: 10em;
 }
 
 .testimonials{
 	padding: 100px 0;
+
 }
 
 .testimonials .testimonials_list{
-	max-width: 820px;
+	max-width: 0px;
 	margin: 0 auto;
 }
 
@@ -826,7 +803,6 @@ footer .copyright a{
 
 @media (max-width: 767px) {
 
-
 	/*		Header 		*/
 	header .logo{
 		margin-right: 0;
@@ -942,13 +918,4 @@ footer .copyright a{
 	/*		Subscription section 		*/
 	.sub_box #mc-email,
 	.sub_box #mc_submit{
-		display: block;
-		width: 90%;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	.sub_box #mc_submit{
-		margin-top: 20px;
-	}
-}
+		display: block
