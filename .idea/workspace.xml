@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65d5d103-455d-4dac-aa62-a7db061eaa7e" name="Default" comment="fix for mobile">
+    <list default="true" id="65d5d103-455d-4dac-aa62-a7db061eaa7e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/android_app.png" afterPath="$PROJECT_DIR$/img/android_app.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/ic_world.png" afterPath="$PROJECT_DIR$/img/ic_world.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/play.png" afterPath="$PROJECT_DIR$/img/play.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/play_hover.png" afterPath="$PROJECT_DIR$/img/play_hover.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -18,21 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="51" column="119" lean-forward="false" selection-start-line="51" selection-start-column="119" selection-end-line="51" selection-end-column="137" />
+            <state relative-caret-position="107">
+              <caret line="76" column="52" lean-forward="true" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="601" column="14" lean-forward="true" selection-start-line="601" selection-start-column="14" selection-end-line="601" selection-end-column="14" />
+            <state relative-caret-position="77">
+              <caret line="797" column="0" lean-forward="true" selection-start-line="797" selection-start-column="0" selection-end-line="797" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,24 +53,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>testimonials</find>
-      <find>features_list</find>
-      <find>Captu</find>
-      <find>header</find>
-      <find>hero.jp</find>
-      <find>.hero</find>
-      <find>a.app_store_btn</find>
-      <find>hero.jpg</find>
-      <find>sep</find>
-      <find>separetor</find>
-      <find>310700</find>
-      <find>testim</find>
-      <find>hero</find>
-      <find>text-lowercase</find>
-      <find>app_store_btn</find>
-      <find>hover</find>
-      <find>android_icon</find>
-      <find>androi</find>
       <find>src</find>
       <find>h1</find>
       <find>ffa</find>
@@ -78,7 +64,25 @@
       <find>impo</find>
       <find>top</find>
       <find>andr</find>
+      <find>develop</find>
       <find>her</find>
+      <find>about</find>
+      <find>features_l</find>
+      <find>ce</find>
+      <find>video</find>
+      <find>about_video</find>
+      <find>play_icon</find>
+      <find>fa</find>
+      <find>play</find>
+      <find>play_ic</find>
+      <find>imageShowcase</find>
+      <find>cente</find>
+      <find>play_</find>
+      <find>iphone</find>
+      <find>imageS</find>
+      <find>iphone</find>
+      <find>iphone{</find>
+      <find>footer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,6 +131,11 @@
             <path>
               <item name="PotenciateFinal" type="b2602c69:ProjectViewProjectNode" />
               <item name="PotenciateFinal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PotenciateFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PotenciateFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,7 +300,7 @@
       <workItem from="1508860155376" duration="499000" />
       <workItem from="1508860738485" duration="1583000" />
       <workItem from="1508885183261" duration="7054000" />
-      <workItem from="1509041100639" duration="7438000" />
+      <workItem from="1509041100639" duration="13297000" />
     </task>
     <task id="LOCAL-00001" summary="Hero part finished">
       <created>1509046589338</created>
@@ -307,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509047208556</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final Fix after debugging">
+      <created>1509051251793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1509051251793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16574000" />
+    <option name="totallyTimeSpent" value="22433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -354,7 +370,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hero part finished" />
     <MESSAGE value="fix for mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix for mobile" />
+    <MESSAGE value="Final Fix after debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Fix after debugging" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -441,14 +458,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../capture_pixelhint_backup/js/wow.js" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="98" column="16" lean-forward="false" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/google.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -617,18 +626,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="51" column="119" lean-forward="false" selection-start-line="51" selection-start-column="119" selection-end-line="51" selection-end-column="137" />
+        <state relative-caret-position="162">
+          <caret line="115" column="16" lean-forward="false" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="601" column="14" lean-forward="true" selection-start-line="601" selection-start-column="14" selection-end-line="601" selection-end-column="14" />
+        <state relative-caret-position="77">
+          <caret line="797" column="0" lean-forward="true" selection-start-line="797" selection-start-column="0" selection-end-line="797" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="76" column="52" lean-forward="true" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
           <folding />
         </state>
       </provider>
