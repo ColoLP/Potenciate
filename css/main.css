@@ -182,17 +182,46 @@ header .social li:first-child{
 	position: relative;
 	width: 100%;
 	height: 620px;
-	background: url('../img/hero.jpg') no-repeat fixed center center;
+	background: url('../img/hero.jpg');
+	background-repeat:no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-attachment:fixed;
+
 	background-size: cover;
 }
 
 @media (max-width : 1000px) {
 	.hero {
-		background: url('../img/hero2.jpg') no-repeat fixed center center;
+		background: url('../img/hero2.jpg');
 		background-size: cover;
+		background-repeat:no-repeat;
+		background-position-x: center !important;
+		background-position-y: center !important;
+		background-attachment:fixed;
+		position: relative;
+		display: block;
+		width: 100%;
 		height: 800px;
 
 	}
+
+	.hero .caption {
+		top: 30%;
+	}
+
+	.hero .caption h1 {
+		font-size: 40px !important;
+	}
+
+	.hero .caption h2 {
+		 font-size: 30px !important;
+	 }
+
+	.hero .caption p {
+		font-size: 15px !important;
+	}
+
 	.container{
 		max-width: 2000px;
 		width: 2000px;
@@ -204,6 +233,7 @@ header .social li:first-child{
 	.container {
 	    width: 100%;
 		}
+
 }
 
 
@@ -567,8 +597,6 @@ a.app_link{
 
 .developer {
 	margin-bottom: 40px;
-    padding-left: 8em;
-    padding-right: 10em;
 }
 
 .testimonials{
